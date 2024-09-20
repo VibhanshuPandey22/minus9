@@ -1,7 +1,7 @@
 "use client";
 import LoginDiv from "@components/LoginDiv";
 import { useSession } from "next-auth/react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 
 const landingPageDesc = [
@@ -55,13 +55,15 @@ const LandingPage = () => {
   const [openLoginDiv, setOpenLoginDiv] = useState(false);
   const [randomDesc, setRandomDesc] = useState("");
 
+  const randomIndexRef = useRef(null);
+
   const handleClick = () => {
     setOpenLoginDiv((prev) => !prev);
   };
 
   useEffect(() => {
-    randomIndex = Math.floor(landingPageDesc.length * Math.random());
-    const randomTextObject = landingPageDesc[randomIndex];
+    randomIndexRef.current = Math.floor(landingPageDesc.length * Math.random());
+    const randomTextObject = landingPageDesc[randomIndexRef.current];
     setRandomDesc(randomTextObject.text);
   }, []);
 
