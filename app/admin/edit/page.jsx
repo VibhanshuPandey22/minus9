@@ -1,6 +1,6 @@
 "use client";
 import { useSearchParams, useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import EditForm from "@components/EditForm";
 import { useSession } from "next-auth/react";
 import Loading from "@components/Loading";
@@ -90,4 +90,10 @@ const EditPost = () => {
   }
 };
 
-export default EditPost;
+const SuspenseWrappedEditPost = () => (
+  <Suspense fallback={<Loading />}>
+    <EditPost />
+  </Suspense>
+);
+
+export default SuspenseWrappedEditPost;

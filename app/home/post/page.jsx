@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useSession } from "next-auth/react";
 import DoneIcon from "@mui/icons-material/Done";
@@ -331,4 +331,10 @@ const Post = () => {
   }
 };
 
-export default Post;
+const SuspenseWrappedPost = () => (
+  <Suspense fallback={<Loading />}>
+    <Post />
+  </Suspense>
+);
+
+export default SuspenseWrappedPost;
