@@ -27,7 +27,7 @@ const LoginDiv = ({ handleClick }) => {
         <div className="mt-5 flex-center flex-col gap-3">
           {providers &&
             Object.values(providers).map((provider) => (
-              <center className="">
+              <center key={provider.id}>
                 <button
                   onClick={() =>
                     signIn(provider.id, {
