@@ -7,11 +7,11 @@ import { useRouter } from "next/navigation";
 const landingPageDesc = [
   {
     id: 1,
-    text: "When we are happy, we often say we&apos;re on cloud 9, soaking in the comfort of happiness. But when the tides turn, and we feel the weight of sadness, it&apos;s as if we&apos;ve descended to a place just as vivid but far far darker - cloud minus9, as I like to call it.",
+    text: "When we are happy, we often say we're on cloud 9, soaking in the comfort of happiness. But when the tides turn, and we feel the weight of sadness, it's as if we've descended to a place just as vivid but far far darker - cloud minus9, as I like to call it.",
   },
   {
     id: 2,
-    text: "Cloud minus9 is where feelings find expression. It&apos;s a place full of quiet melancholy, raw emotion, and deep reflection. Here, words carry the weight of our experiences when we&apos;re not flying high, but grounding ourselves in truth.",
+    text: "Cloud minus9 is where feelings find expression. It's a place full of quiet melancholy, raw emotion, and deep reflection. Here, words carry the weight of our experiences when we're not flying high, but grounding ourselves in truth.",
   },
   {
     id: 3,
@@ -19,7 +19,7 @@ const landingPageDesc = [
   },
   {
     id: 4,
-    text: "For me, cloud minus9 is where vulnerability transforms into strength. In this space, we embrace the moments of sadness and self-doubt, knowing that these feelings don&apos;t diminish us, they fortify us. Here, sharing our inner thoughts isn&apos;t a sign of defeat but a powerful expression of resilience.",
+    text: "For me, cloud minus9 is where vulnerability transforms into strength. In this space, we embrace the moments of sadness and self-doubt, knowing that these feelings don't diminish us, they fortify us. Here, sharing our inner thoughts isn't a sign of defeat but a powerful expression of resilience.",
   },
   {
     id: 5,
@@ -27,15 +27,15 @@ const landingPageDesc = [
   },
   {
     id: 6,
-    text: "Ups and downs, happiness and sadness, a high and a low, cloud 9 and and cloud minus 9, aren&apos;t they all a complementary must?",
+    text: "Ups and downs, happiness and sadness, a high and a low, cloud 9 and and cloud minus 9, aren't they all a complementary must?",
   },
   {
     id: 7,
-    text: "Cloud 9 is where we rise, cloud minus9 is where we fall, cloud 9 lifts us high, but cloud minus9 brings us back down, aren&apos;t they so intertwined? Every moment of happiness owes its meaning to the times of sadness, and together they create the rhythm of our lives.",
+    text: "Cloud 9 is where we rise, cloud minus9 is where we fall, cloud 9 lifts us high, but cloud minus9 brings us back down, aren't they so intertwined? Every moment of happiness owes its meaning to the times of sadness, and together they create the rhythm of our lives.",
   },
   {
     id: 8,
-    text: "When we&apos;re in a place that feels like the top, and we might often call it cloud 9, the height really makes the world look small, and problems seem so far off. Dare falling off that height, and you&apos;d unravel the grounding truth - of cloud minus9.",
+    text: "When we're in a place that feels like the top, and we might often call it cloud 9, the height really makes the world look small, and problems seem so far off. Dare falling off that height, and you'd unravel the grounding truth - of cloud minus9.",
   },
   {
     id: 9,
@@ -43,7 +43,7 @@ const landingPageDesc = [
   },
   {
     id: 10,
-    text: "Cloud 9 is when you are in a state of extreme happiness or bliss. And cloud minus9, well, the opposite. Now, if you think hard enough, cloud9 is basically cloud minus9. I&apos;ll say it again, if you think hard enough.",
+    text: "Cloud 9 is when you are in a state of extreme happiness or bliss. And cloud minus9, well, the opposite. Now, if you think hard enough, cloud9 is basically cloud minus9. I'll say it again, if you think hard enough.",
   },
 ];
 
