@@ -76,7 +76,7 @@ const LandingPage = () => {
           }`}
         >
           <div className="flex-center flex-col gap-10 w-full max-w-5xl">
-            <p className="mt-5 max-sm:mt-1 text-2xl font-mukta text-platinum max-sm:text-lg text-center px-3 italic">
+            <p className="mt-5 max-sm:mt-1 text-2xl font-mukta text-platinum max-sm:text-lg text-center px-3 italic tracking-normal">
               "{randomDesc}"
             </p>
             <p className="mt-14 max-sm:mt-7 text-5xl tracking-tight font-medium font-mukta text-cyan max-lg:text-4xl max-md:text-5xl max-sm:text-xl text-center"></p>
@@ -118,7 +118,7 @@ const LandingPage = () => {
                 lives, showing the depth of what it means to be human in all its
                 ways.{" "}
                 <span
-                  className="text-yellow-600 cursor-pointer hover:text-yellow-500 transition-all duration-200"
+                  className="text-cyan cursor-pointer hover:text-light transition-all duration-200 underline underline-offset-2"
                   onClick={handleClick}
                 >
                   Login to start.

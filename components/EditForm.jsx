@@ -62,7 +62,7 @@ const EditForm = ({ postToEdit, setPostToEdit, handleSubmit }) => {
         <div className="px-7 flex items-center gap-5 mt-5">
           <button
             type="submit"
-            className="text-platinum font-mukta font-medium text-sm border-cyan border-[1px] px-2 py-1 rounded-2xl flex-center hover:bg-cyan hover:text-light transition-all duration-150"
+            className="text-cyan font-mukta font-medium text-sm border-cyan border-[1px] px-2 py-1 rounded-2xl flex-center hover:bg-cyan hover:text-extra transition-all duration-150"
           >
             Update Topic
           </button>

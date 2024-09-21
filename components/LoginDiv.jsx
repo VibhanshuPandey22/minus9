@@ -14,7 +14,7 @@ const LoginDiv = ({ handleClick }) => {
   }, []);
 
   return (
-    <div className="h-[50vh] w-[50vw] fixed top-[25vh] left-[25vw] max-sm:w-[90vw] max-sm:left-[5vw] max-sm:h-[35vh] max-sm:top-[32.5vh] rounded-xl flex-center bg-light shadow-black shadow-xl drop-shadow-lg">
+    <div className="h-[50vh] w-[50vw] fixed top-[25vh] left-[25vw] max-sm:w-[90vw] max-sm:left-[5vw] max-sm:h-[35vh] max-sm:top-[32.5vh] rounded-xl flex-center bg-extra border-opacity-30 shadow-extra shadow-lg drop-shadow-lg">
       <div className="flex-center flex-col">
         <div className="flex-center flex-col gap-1">
           <h1 className="text-4xl max-sm:text-2xl font-bold text-cyan">
@@ -34,7 +34,7 @@ const LoginDiv = ({ handleClick }) => {
                       callbackUrl: "/home",
                     })
                   }
-                  className="border-cyan border-[1px] rounded-2xl px-3 max-sm:px-2 text-cyan font-medium py-1 w-fit hover:text-light hover:bg-cyan transition-all duration-150 max-sm:p-1"
+                  className="border-cyan border-[1px] rounded-2xl px-3 max-sm:px-2 text-cyan font-medium py-1 w-fit hover:text-extra hover:bg-cyan transition-all duration-150 max-sm:p-1"
                 >
                   <span className="max-sm:text-sm max-sm:p-1">
                     Sign In with {provider.name}

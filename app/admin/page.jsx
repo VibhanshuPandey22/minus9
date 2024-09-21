@@ -79,7 +79,7 @@ const ShowPosts = () => {
         <div className="flex-center mt-10">
           <button
             onClick={() => router.push("/admin/create")}
-            className="bg-green-500 max-sm:text-sm font-mukta font-medium text-light px-2 py-1 rounded-2xl hover:bg-green-600 transition-all duration-200"
+            className="bg-green-500 max-sm:text-sm font-mukta font-medium text-extra px-2 py-1 rounded-2xl hover:bg-green-600 transition-all duration-200"
           >
             Create New Post
           </button>

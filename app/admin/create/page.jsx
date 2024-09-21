@@ -108,7 +108,7 @@ const CreatePost = () => {
           <div className="px-7 flex items-center gap-5 mt-4">
             <button
               type="submit"
-              className="text-white bg-green-500 hover:bg-green-600 font-mukta font-medium text-sm px-2 py-1 rounded-2xl flex-center hover:text-light transition-all duration-150"
+              className="text-extra bg-green-500 hover:bg-green-600 font-mukta font-medium text-sm px-2 py-1 rounded-2xl flex-center hover:text-extra transition-all duration-150"
             >
               Add Topic
             </button>

@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className=" px-7 text-4xl max-sm:text-3xl">
               <span
                 onClick={() => router.push("/home")}
-                className="cursor-pointer text-cyan hover:text-white transition-all duration-[120ms] font-marhey tracking-tight"
+                className="cursor-pointer text-cyan hover:text-light transition-all duration-150 font-marhey tracking-tight"
               >
                 minus9
               </span>
@@ -25,7 +25,7 @@ const Navbar = () => {
               {session?.user?.email === adminEmail && (
                 <button
                   onClick={() => router.push("/admin")}
-                  className="text-platinum font-mukta font-medium text-sm border-cyan border-[1px] px-2 py-1 rounded-2xl flex-center hover:bg-cyan hover:text-light transition-all duration-150"
+                  className="text-cyan font-mukta font-medium text-sm border-cyan border-[1px] px-2 py-1 rounded-2xl flex-center hover:bg-cyan hover:text-extra transition-all duration-150"
                 >
                   Admin
                 </button>
@@ -36,7 +36,7 @@ const Navbar = () => {
                     callbackUrl: "/",
                   })
                 }
-                className="text-platinum font-mukta font-medium text-sm border-cyan border-[1px] px-2 py-1 rounded-2xl flex-center  hover:bg-cyan hover:text-light transition-all duration-150"
+                className="text-cyan font-mukta font-medium text-sm border-cyan border-[1px] px-2 py-1 rounded-2xl flex-center  hover:bg-cyan hover:text-extra transition-all duration-150"
               >
                 Logout
               </button>

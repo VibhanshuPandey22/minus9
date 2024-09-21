@@ -176,7 +176,7 @@ const Post = () => {
               Posted at : {postDetails.time} by {postDetails.author}
             </p>
           </div>
-          <div className="text-platinum font-mukta mt-5 px-20 py-10 max-sm:text-xs border-[1px] border-platinum max-sm:px-8 max-sm:py-4">
+          <div className="text-platinum font-mukta mt-5 px-20 py-10 max-sm:text-xs max-sm:px-8 max-sm:py-4 bg-extra">
             <p className="whitespace-pre-wrap break-words">
               {postDetails.content}
             </p>
@@ -221,14 +221,14 @@ const Post = () => {
             className="flex-center flex-col gap-3 w-full mt-7"
           >
             <textarea
-              className="w-full h-10 p-2 mb-4 text-platinum bg-transparent outline-none border-none shadow-xl placeholder:text-sm max-sm:placeholder:text-xs text-sm max-sm:text-xs placeholder:font-mukta"
+              className="w-full h-10 p-2 mb-4 text-platinum bg-transparent outline-none border-none shadow-xl placeholder:text-extra2 placeholder:opacity-65 placeholder:text-sm max-sm:placeholder:text-xs text-sm max-sm:text-xs placeholder:font-mukta"
               placeholder="Share your thoughts, feedback or anything else..."
               value={comment}
               onChange={(e) => setComment(e.target.value)}
             />
             <button
               type="submit"
-              className="text-platinum font-mukta font-medium text-lg max-sm:text-sm border-cyan border-[1px] px-3 max-sm:px-2 py-1 rounded-3xl max-sm:rounded-2xl flex-center hover:bg-cyan hover:text-light transition-all duration-150"
+              className="text-cyan hover:text-extra font-mukta font-medium text-lg max-sm:text-sm border-cyan border-[1px] px-3 max-sm:px-2 py-1 rounded-3xl max-sm:rounded-2xl flex-center hover:bg-cyan transition-all duration-150"
             >
               Submit
             </button>
@@ -322,7 +322,7 @@ const Post = () => {
             </div>
           ) : (
             <div className="mt-20 max-sm:mt-10 sm:text-2xl font-medium font-mukta mb-4 text-platinum flex-center">
-              No comments yet. Add the first one above 👆
+              No comments yet. Add the first one 👆
             </div>
           )}
         </div>
